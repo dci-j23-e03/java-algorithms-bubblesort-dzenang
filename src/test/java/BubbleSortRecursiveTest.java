@@ -5,13 +5,13 @@ import java.util.Arrays;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-public class BubbleSortTest {
+public class BubbleSortRecursiveTest {
 
-  private static BubbleSort2 bubbleSort;
+  private static BubbleSortRecursive2 bubbleSort;
 
   @BeforeAll
   public static void once() {
-    bubbleSort = new BubbleSort2();
+    bubbleSort = new BubbleSortRecursive2();
   }
 
   @Test
